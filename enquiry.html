@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Send Can Own Clothing an enquiry about products, prices, size availability, customisation, volunteering or sponsorship.">
+    <meta name="keywords" content="Can Own Clothing enquiry, clothing price, customised hoodie, T-shirt order">
+    <title>Enquiry | Can Own Clothing</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body><a class="skip-link" href="#main">Skip to main content</a>
+    <header class="header">
+        <div class="container nav"><a class="logo" href="index.html"><img src="images/image0.jpg"
+                    alt="Can Own Clothing logo"><span>CAN OWN CLOTHING</span></a><button class="menu-toggle"
+                aria-expanded="false" aria-controls="main-nav">Menu </button>
+            <nav id="main-nav"><a href="index.html">Home</a><a href="about.html">About</a><a
+                    href="products.html">Products</a><a href="colours.html">Colours</a><a class="active"
+                    href="enquiry.html">Enquiry</a><a href="contact.html">Contact</a></nav>
+        </div>
+    </header>
+    <main id="main">
+        <section class="banner">
+            <div class="container">
+                <p class="eyebrow">ENQUIRY CHANNEL</p>
+                <h1>Tell us what you need</h1>
+                <p>Ask about a product, its estimated cost, size availability, customisation, or volunteering and
+                    sponsorship.</p>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container two-col">
+                <div>
+                    <h2>Before you submit</h2>
+                    <p>Complete the form with your contact details and request. The page will check required fields and
+                        show an estimated product total for standard items. This is not a final quote or confirmation of
+                        stock.</p>
+                    <p>For customisation, volunteering or sponsorship, describe your idea so the business can respond
+                        appropriately.</p>
+                    <div class="notice"><strong>Standard listed prices</strong>
+                        <p>Hoodie: R350 each<br>T-shirt: R250 each<br>Customisation: price to be confirmed</p>
+                    </div>
+                </div>
+                <form class="form" id="enquiryForm"><label for="name">Full name *</label><input id="name" name="name"
+                        type="text" minlength="2" maxlength="80" autocomplete="name" required><label for="email">Email
+                        address *</label><input id="email" name="email" type="email" autocomplete="email"
+                        required><label for="phone">Phone number</label><input id="phone" name="phone" type="tel"
+                        pattern="[0-9+() -]{7,20}" title="Enter a valid phone number" autocomplete="tel"><label
+                        for="type">Type of enquiry *</label><select id="type" name="type" required>
+                        <option value="">Select an option</option>
+                        <option>Product Enquiry</option>
+                        <option>Clothing Customisation</option>
+                        <option>General Query</option>
+                        <option>Volunteer</option>
+                        <option>Sponsorship</option>
+                    </select><label for="product">Product</label><select id="product" name="product">
+                        <option value="">Select a product</option>
+                        <option value="hoodie">Can Own Hoodie - R350</option>
+                        <option value="tshirt">Can Own T-Shirt - R250</option>
+                        <option value="custom">Customised clothing - price to be confirmed</option>
+                    </select><label for="size">Size</label><select id="size" name="size">
+                        <option value="">Select a size</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                        <option>XL</option>
+                    </select><label for="quantity">Quantity</label><input id="quantity" name="quantity" type="number"
+                        min="1" max="100" value="1"><label for="message">Your enquiry *</label><textarea id="message"
+                        name="message" rows="5" minlength="5" maxlength="1000" required></textarea><button
+                        class="button" type="submit">Review and prepare email</button>
+                    <div id="enquiryMessage" class="form-response" aria-live="polite"></div><a id="enquiry-email-link"
+                        class="button hidden" href="#">Open email to send enquiry</a>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container footer-grid">
+            <div>
+                <h3>Can Own Clothing</h3>
+                <p>If you can dream about it, you can own it.</p>
+            </div>
+            <div>
+                <h3>Quick Links</h3><a href="products.html">Products</a><a href="colours.html">Colours</a><a
+                    href="contact.html">Contact</a>
+            </div>
+            <div>
+                <h3>Social</h3><a href="#">Instagram (@_CanOwn)</a> <a
+                    href="#">TikTok (@_CanOwn)</a>
+            </div>
+        </div>
+        <p class="copyright">&copy; 2026 Can Own Clothing. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
